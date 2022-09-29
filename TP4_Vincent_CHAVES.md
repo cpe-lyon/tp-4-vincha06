@@ -54,7 +54,7 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/192993078-e13a32b2-7532-45d8-860a-12c899fae20f.png)
 
 ###  Utilisez la réponse à cette question pour écrire un script appelé origine-commande (sans l’extension .sh) prenant en argument le nom d’une commande, et indiquant quel paquet l’a installée.
-- ![image](https://user-images.githubusercontent.com/113091304/193078282-60f255ea-6f28-44f0-b257-b5bb6d3e1743.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193078585-deab378e-038a-4764-bd79-c3041a988e04.png)
 - Je teste avec les commandes ls, nano et mkdir :
 - ![image](https://user-images.githubusercontent.com/113091304/193023914-37ff50ce-6507-4d9d-a28a-90175f01a25f.png)
 - ![image](https://user-images.githubusercontent.com/113091304/193024106-9d597f6f-e864-482c-89d9-5200677d4fe7.png)

@@ -97,8 +97,17 @@ Vincent CHAVES - 3ICS
 ### 1. Commencez par cloner le dépôt git suivant :
 ### git clone https://gitlab.com/jallbrit/cbonsai
 ### Ceci permet de récupérer en local le code source du logiciel cbonsai.!
-- ![image](https://user-images.githubusercontent.com/113091304/193067331-32a01cd0-9cb0-432f-b55b-52dc204fd536.png)
-- ![image](https://user-images.githubusercontent.com/113091304/193069810-d5468dca-7f97-4490-8cb8-d9130998eb08.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193079845-f0b3298b-7f07-4d9c-b00c-9988ae37136b.png)
+
+### 2. Rendez vous dans le dossier cbonsai. Un fichier README.md) est livré avec les sources, et vous explique comment compiler le programme (vous pouvez installer un lecteur de Markdown pour Bash, comme mdless pour vous faciliter la lecture de ce type de fichiers). Un fichier Makefile est également présent. Un Makefile est un fichier utilisé par l’outil make, et contient toutes les directives de compilation d’un logiciel. Un Makefile définit un certain nombre de règles permettant de construire des cibles. Les cibles les plus communes étant install (pour la compilation et l’installation du logiciel) et clean (pour sa suppression). En suivant les consignes du fichier README.md, et en installant les éventuels paquets manquants, compilez ce programme et installez le en local.
+- ![image](https://user-images.githubusercontent.com/113091304/193080077-4f99bf04-491b-4f9b-b0f7-ed3ee48dc69e.png)
+- On peut désormais lancer cbonsai avec :
+- ![image](https://user-images.githubusercontent.com/113091304/193081050-150e008c-ca85-48bc-8410-8ee3102ef90e.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193081313-5e3a30d0-bea0-435e-8a58-8e81e0fad940.png)
+
+
+
+
 
 
 

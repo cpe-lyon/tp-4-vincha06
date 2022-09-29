@@ -12,7 +12,7 @@ Vincent CHAVES - 3ICS
 ### 2. Créez un alias “maj” de la ou des commande(s) de la question précédente. Où faut-il enregistrer cet alias pour qu’il ne soit pas perdu au prochain redémarrage ?
 - ![image](https://user-images.githubusercontent.com/113091304/192954647-5c836d28-3669-4129-a1e4-74c84d025012.png)
 - Pour qu'il ne soit pas perdu il faut l'entrer dans le fichier .bashrc comme ceci :
-- ![image](https://user-images.githubusercontent.com/113091304/192957121-1dc02d1f-6cff-4d87-b1bf-469913571548.png)
+- ![image](https://user-images.githubusercontent.com/113091304/192964554-4a709ea1-e084-44a5-956f-34d81e691136.png)
 - Je vérifie si ça fonctionne :
 - ![image](https://user-images.githubusercontent.com/113091304/192957228-f3b94889-bf8c-4207-b80e-2196a529e602.png)
 

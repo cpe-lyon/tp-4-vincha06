@@ -118,7 +118,13 @@ Vincent CHAVES - 3ICS
 - Vérification de la présence du fichier .deb :
 - ![image](https://user-images.githubusercontent.com/113091304/193083290-e6148131-38ba-44ec-abe6-1c04f5cf59a7.png)
 - cbonsai s'éxecute bien depuis n'importe quel dossier
-- 
+- Avec aptitude je peux voir que cbonsai a bien été "installé localement" et avec checkinstall :
+- ![image](https://user-images.githubusercontent.com/113091304/193085543-50207bb6-e437-4e94-b21a-3f00396cb580.png)
+
+## Exercice 8
+### Dans cet exercice, vous allez créer vos propres paquets et dépôts, ce qui vous permettra de gérer les programmes que vous écrivez comme s’ils provenaient de dépôts officiels.
+### 1. Dans le dossier scripts créé lors du TP 2, créez un sous-dossier origine-commande où vous créerez un sous-dossier DEBIAN, ainsi que l’arborescence usr/local/bin où vous placerez le script écrit à l’exercice 2
+-
 
 
 

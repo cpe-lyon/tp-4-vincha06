@@ -15,6 +15,7 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/192964554-4a709ea1-e084-44a5-956f-34d81e691136.png)
 - Je vérifie si ça fonctionne :
 - ![image](https://user-images.githubusercontent.com/113091304/192957228-f3b94889-bf8c-4207-b80e-2196a529e602.png)
+- Ça fonctionne bien
 
 ### 3. Utilisez le fichier /var/log/dpkg.log pour obtenir les 5 derniers paquets installés sur votre machine.
 - ![image](https://user-images.githubusercontent.com/113091304/192960259-f14c5930-1444-499c-a638-bb006d1604a7.png)

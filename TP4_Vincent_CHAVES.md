@@ -83,9 +83,17 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/193058646-62c859a7-64f8-4530-ae4e-ee5c350c156f.png)
 - ![image](https://user-images.githubusercontent.com/113091304/193058931-4cefdbd2-d66f-4363-9ec2-75a2177f0442.png)
 ### 2. Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?
-- ![image](https://user-images.githubusercontent.com/113091304/193061058-a8d63d55-0825-4c0c-adf0-e33ae5ca202f.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193074659-d0487321-3138-4c8a-b182-76bde9a743ef.png)
+- Il contient ça :
+- ![image](https://user-images.githubusercontent.com/113091304/193075134-202989d6-51c6-4879-b90d-56a8f58d6085.png)
+
 
 ## Exercice 7
+### 1. Commencez par cloner le dépôt git suivant :
+### git clone https://gitlab.com/jallbrit/cbonsai
+### Ceci permet de récupérer en local le code source du logiciel cbonsai.!
+- ![image](https://user-images.githubusercontent.com/113091304/193067331-32a01cd0-9cb0-432f-b55b-52dc204fd536.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193069810-d5468dca-7f97-4490-8cb8-d9130998eb08.png)
 
 
 

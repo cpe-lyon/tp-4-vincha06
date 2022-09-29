@@ -10,7 +10,7 @@ Vincent CHAVES - 3ICS
 - <code>apt upgrade</code>
 
 ### 2. Créez un alias “maj” de la ou des commande(s) de la question précédente. Où faut-il enregistrer cet alias pour qu’il ne soit pas perdu au prochain redémarrage ?
-- ![image](https://user-images.githubusercontent.com/113091304/192954647-5c836d28-3669-4129-a1e4-74c84d025012.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193025020-f5d8b6f3-aec3-4685-bb8e-f5ae13439daf.png)
 - Pour qu'il ne soit pas perdu il faut l'entrer dans le fichier .bashrc comme ceci :
 - ![image](https://user-images.githubusercontent.com/113091304/192964554-4a709ea1-e084-44a5-956f-34d81e691136.png)
 - Je vérifie si ça fonctionne :
@@ -32,12 +32,12 @@ Vincent CHAVES - 3ICS
 - 69053
 
 ### 7. A quoi servent les paquets glances, tldr et hollywood ? Installez-les et testez-les.
+-  glances sert à afficher l'utilisation des ressources système :
 - ![image](https://user-images.githubusercontent.com/113091304/192986761-2028f09d-7fbd-42f2-be1a-069794e10ced.png)
--  glances sert à afficher l'utilisation des ressources système
+- "tldr" est un "manuel simplifié rédigé par la communauté" :
 - ![image](https://user-images.githubusercontent.com/113091304/192985098-54ad3ecd-6b28-4c8c-9f25-4940e3226eda.png)
-- "tldr" est un "manuel simplifié rédigé par la communauté"
-- ![image](https://user-images.githubusercontent.com/113091304/192984290-be9ebe87-c1c0-473e-b8cb-53931a4a474f.png)
 - "hollywood" ne sert à rien, ça reproduit un piratage selon les films hollywood.
+- ![image](https://user-images.githubusercontent.com/113091304/193025119-c4de9af2-9f7e-41c0-92e6-478e7675f96a.png)
 
 ### 8. Quels paquets proposent de jouer au sudoku ?
 - sudoku : <code>apt install sudoku</code>
@@ -58,6 +58,42 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/193024150-3ad4d9a1-a118-459e-9a3f-7cd205e769f9.png)
 
 ## Exercice 3
+### Ecrire une commande qui affiche “INSTALLÉ” ou “NON INSTALLÉ” selon le nom et le statut du package spécifié dans cette commande.
+- ![image](https://user-images.githubusercontent.com/113091304/193027137-485b05da-b28c-4807-bd92-ff67412dfbad.png)
+
+## Exercice 4
+### Lister les programmes livrés avec coreutils. En particulier, on remarque que l’un deux se nomme [. De quoi s’agit-il ?
+- ![image](https://user-images.githubusercontent.com/113091304/193030047-4e8087e5-8e56-483d-9642-20b347c055f0.png)
+
+## Exercice 5
+### Installez les paquets emacs et lynx à l’aide de la version graphique d’aptitude (et prenez deux minutes pour vous renseigner et tester ces paquets).
+- ![image](https://user-images.githubusercontent.com/113091304/193034660-73e75ca8-514d-497c-ae71-17e0ccac1449.png)
+- <code>sudo su</code>
+- <code>aptitude</code>
+- lynx :
+- ![image](https://user-images.githubusercontent.com/113091304/193044751-043170bb-3be0-4c22-b2a9-98a9b222a1c8.png)
+- Emacs est un éditeur de texte et Lynx est un navigateur web rudimentaire (sans réelle interface graphique)
+
+## Exercice 6
+### 1. Installer la version Oracle de Java (avec l’ajout des PPA)
+### sudo add-apt-repository ppa:linuxuprising/java
+### sudo apt update
+### sudo apt install oracle-java15-installer
+- ![image](https://user-images.githubusercontent.com/113091304/193058246-1885c19e-2598-443a-ac45-376c56bb2ff5.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193058646-62c859a7-64f8-4530-ae4e-ee5c350c156f.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193058931-4cefdbd2-d66f-4363-9ec2-75a2177f0442.png)
+### 2. Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?
+- ![image](https://user-images.githubusercontent.com/113091304/193061058-a8d63d55-0825-4c0c-adf0-e33ae5ca202f.png)
+
+## Exercice 7
+
+
+
+
+
+
+
+
 
 
 

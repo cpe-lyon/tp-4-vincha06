@@ -59,6 +59,7 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/193023914-37ff50ce-6507-4d9d-a28a-90175f01a25f.png)
 - ![image](https://user-images.githubusercontent.com/113091304/193024106-9d597f6f-e864-482c-89d9-5200677d4fe7.png)
 - ![image](https://user-images.githubusercontent.com/113091304/193024150-3ad4d9a1-a118-459e-9a3f-7cd205e769f9.png)
+- Le script fonctionne correctement.
 
 ## Exercice 3
 ### Ecrire une commande qui affiche “INSTALLÉ” ou “NON INSTALLÉ” selon le nom et le statut du package spécifié dans cette commande.

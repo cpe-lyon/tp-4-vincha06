@@ -105,6 +105,10 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/193081050-150e008c-ca85-48bc-8410-8ee3102ef90e.png)
 - ![image](https://user-images.githubusercontent.com/113091304/193081313-5e3a30d0-bea0-435e-8a58-8e81e0fad940.png)
 
+### 3. Malheureusement, cette installation “à la main” fait qu’on ne dispose pas des bénéfices de la gestion de paquets apportés par dpkg ou apt. Heureusement, il est possible de transformer un logiciel installé “à la main” en un paquet, et de le gérer ensuite avec apt ; c’est ce que permet par exemple l’outil checkinstall.
+- ![image](https://user-images.githubusercontent.com/113091304/193082057-515b8e63-fd7e-4bd8-b072-a9ecb706c4c8.png)
+
+
 
 
 

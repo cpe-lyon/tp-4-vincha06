@@ -50,7 +50,9 @@ Vincent CHAVES - 3ICS
 - ls est installée dans le coeur du système (coreutils) et se retrouve aussi dans le paquet "klics-utils" :
 - ![image](https://user-images.githubusercontent.com/113091304/192993078-e13a32b2-7532-45d8-860a-12c899fae20f.png)
 ### Comment obtenir cette information en une seule commande, pour n’importe quel programme ? 
-- Afin d'obtenir cette information en une seule commande, il faut taper : <code>dpkg -S ls | grep "/ls$"</code>
+- Comme vu à la question précédente, afin d'obtenir cette information en une seule commande, il faut taper : <code>dpkg -S ls | grep "/ls$"</code>
+- - ![image](https://user-images.githubusercontent.com/113091304/192993078-e13a32b2-7532-45d8-860a-12c899fae20f.png)
+- 
 ###  Utilisez la réponse à cette question pour écrire un script appelé origine-commande (sans l’extension .sh) prenant en argument le nom d’une commande, et indiquant quel paquet l’a installée.
 - ![image](https://user-images.githubusercontent.com/113091304/193023618-64e9ddf5-3769-41e9-91c4-8f7bad461bdc.png)
 - Je teste avec les commandes ls, nano et mkdir :

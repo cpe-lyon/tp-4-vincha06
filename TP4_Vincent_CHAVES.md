@@ -106,7 +106,20 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/193081313-5e3a30d0-bea0-435e-8a58-8e81e0fad940.png)
 
 ### 3. Malheureusement, cette installation “à la main” fait qu’on ne dispose pas des bénéfices de la gestion de paquets apportés par dpkg ou apt. Heureusement, il est possible de transformer un logiciel installé “à la main” en un paquet, et de le gérer ensuite avec apt ; c’est ce que permet par exemple l’outil checkinstall.
+- J'utilise donc la commande checkinstall :
 - ![image](https://user-images.githubusercontent.com/113091304/193082057-515b8e63-fd7e-4bd8-b072-a9ecb706c4c8.png)
+- Cbonsai est désormais un paquet :
+- ![image](https://user-images.githubusercontent.com/113091304/193082456-ee5168b3-c000-4f1b-ba45-0bb1fef3852a.png)
+
+### 4. Recommencez la compilation à l’aide de checkinstall
+### sudo checkinstall
+- Voir question précédente
+### Un paquet a été créé (fichier xxx.deb), et le logiciel est à présent installé (tapez cbonsai depuis n’importe quel dossier pour vous en assurer) ; on peut vérifier par exemple avec aptitude qu’il provient bien du paquet qu’on a créé avec checkinstall. Vous pouvez à présent profiter d’un instant de zenitude avant de passer au dernier exercice.
+- Vérification de la présence du fichier .deb :
+- ![image](https://user-images.githubusercontent.com/113091304/193083290-e6148131-38ba-44ec-abe6-1c04f5cf59a7.png)
+- cbonsai s'éxecute bien depuis n'importe quel dossier
+- 
+
 
 
 

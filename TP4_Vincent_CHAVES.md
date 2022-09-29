@@ -60,6 +60,7 @@ Vincent CHAVES - 3ICS
 
 ## Exercice 3
 ### Ecrire une commande qui affiche “INSTALLÉ” ou “NON INSTALLÉ” selon le nom et le statut du package spécifié dans cette commande.
+- <code>dpkg -l "nano" | grep "^i" && echo "INSTALLE" || echo "NON INSTALLE"</code>
 - ![image](https://user-images.githubusercontent.com/113091304/193027137-485b05da-b28c-4807-bd92-ff67412dfbad.png)
 
 ## Exercice 4

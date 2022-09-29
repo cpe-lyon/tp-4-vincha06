@@ -23,9 +23,10 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/192960801-0874796e-2c7a-48e8-9938-a44d85a56cd6.png)
 
 ### 5. Utilisez les commandes dpkg et apt pour compter de deux manières différentes le nombre de total de paquets installés sur la machine (ne pas hésiter à consulter le manuel !). Comment explique-t-on la (petite) différence de comptage ? Pourquoi ne peut-on pas utiliser directement le fichier dpkg.log ?
-
+- ![image](https://user-images.githubusercontent.com/113091304/192966279-902c5abc-6cfe-4053-864e-34cf57647aff.png)
 
 ### 6. Combien de paquets sont disponibles en téléchargement sur les dépôts Ubuntu ?
+
 ### 7. A quoi servent les paquets glances, tldr et hollywood ? Installez-les et testez-les.
 ### 8. Quels paquets proposent de jouer au sudoku ?
 

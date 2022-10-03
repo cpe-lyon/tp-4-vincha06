@@ -139,9 +139,6 @@ Vincent CHAVES - 3ICS
 ### Félicitations ! Vous avez créé votre propre paquet !
 - ![image](https://user-images.githubusercontent.com/113091304/193534326-5523338e-76c1-41a9-a4b1-0f97e63504e4.png)
 
-### 4. Dans le dossier repo-cpe, générez l’arborescence du dépôt avec la commande reprepro -b . export
-- ![image](https://user-images.githubusercontent.com/113091304/193537616-f760167b-eb31-4d11-bf11-af4932906f28.png)
-
 ## Création du dépôt personnel avec reprepro
 
 ### 1. Dans votre dossier personnel, commencez par créer un dossier repo-cpe. Ce sera la racine de votre dépôt
@@ -151,7 +148,17 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/193541022-dafc675f-599e-43f5-886a-3a9557094e42.png)
 
 ### 3. Dans conf, créez le fichier distributions suivant :
-- ![image](https://user-images.githubusercontent.com/113091304/193543547-44f09ad0-d7cb-426a-ae8d-03bd1c6c8897.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193544446-1338a6a8-c189-4bf0-9ef7-2d5e3a74dcce.png)
+
+### 4. Dans le dossier repo-cpe, générez l’arborescence du dépôt avec la commande reprepro -b . export
+- ![image](https://user-images.githubusercontent.com/113091304/193543991-1f828717-76b3-4755-a265-2c88f3566b54.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193544548-c8d196cc-5539-4c58-9d17-e5e3c87a0d8d.png)
+
+### 5. Copiez le paquet origine-commande.deb créé précédemment dans le dossier packages du dépôt, puis, à la racine du dépôt, exécutez la commande reprepro -b . includedeb cosmic origine-commande.deb afin que votre paquet soit inscrit dans le dépôt.
+- ![image](https://user-images.githubusercontent.com/113091304/193547029-710177ab-ff88-4b75-b9cf-62e5237074ae.png)
+
+
+
 
 
 

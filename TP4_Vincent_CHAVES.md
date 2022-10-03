@@ -123,6 +123,9 @@ Vincent CHAVES - 3ICS
 
 ## Exercice 8
 ### Dans cet exercice, vous allez créer vos propres paquets et dépôts, ce qui vous permettra de gérer les programmes que vous écrivez comme s’ils provenaient de dépôts officiels.
+
+## Création d’un paquet Debian avec dpkg-deb
+
 ### 1. Dans le dossier scripts créé lors du TP 2, créez un sous-dossier origine-commande où vous créerez un sous-dossier DEBIAN, ainsi que l’arborescence usr/local/bin où vous placerez le script écrit à l’exercice 2
 - ![image](https://user-images.githubusercontent.com/113091304/193523595-f82108f4-4c16-4ee9-b91a-514c398b7ccc.png)
 - ![image](https://user-images.githubusercontent.com/113091304/193523998-2f0bcfa4-eff4-45c0-a8ea-35b7f241d8fa.png)
@@ -135,6 +138,20 @@ Vincent CHAVES - 3ICS
 ### dpkg-deb --build origine-commande
 ### Félicitations ! Vous avez créé votre propre paquet !
 - ![image](https://user-images.githubusercontent.com/113091304/193534326-5523338e-76c1-41a9-a4b1-0f97e63504e4.png)
+
+### 4. Dans le dossier repo-cpe, générez l’arborescence du dépôt avec la commande reprepro -b . export
+- ![image](https://user-images.githubusercontent.com/113091304/193537616-f760167b-eb31-4d11-bf11-af4932906f28.png)
+
+## Création du dépôt personnel avec reprepro
+
+### 1. Dans votre dossier personnel, commencez par créer un dossier repo-cpe. Ce sera la racine de votre dépôt
+- ![image](https://user-images.githubusercontent.com/113091304/193540406-287bfa0d-3615-4ec5-806a-11401d6644e5.png)
+
+### 2. Ajoutez-y deux sous-dossiers : conf (qui contiendra la configuration du dépôt) et packages (qui contiendra nos paquets)
+- ![image](https://user-images.githubusercontent.com/113091304/193541022-dafc675f-599e-43f5-886a-3a9557094e42.png)
+
+### 3. Dans conf, créez le fichier distributions suivant :
+- ![image](https://user-images.githubusercontent.com/113091304/193543547-44f09ad0-d7cb-426a-ae8d-03bd1c6c8897.png)
 
 
 

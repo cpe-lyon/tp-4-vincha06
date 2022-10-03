@@ -124,7 +124,19 @@ Vincent CHAVES - 3ICS
 ## Exercice 8
 ### Dans cet exercice, vous allez créer vos propres paquets et dépôts, ce qui vous permettra de gérer les programmes que vous écrivez comme s’ils provenaient de dépôts officiels.
 ### 1. Dans le dossier scripts créé lors du TP 2, créez un sous-dossier origine-commande où vous créerez un sous-dossier DEBIAN, ainsi que l’arborescence usr/local/bin où vous placerez le script écrit à l’exercice 2
--
+- ![image](https://user-images.githubusercontent.com/113091304/193523595-f82108f4-4c16-4ee9-b91a-514c398b7ccc.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193523998-2f0bcfa4-eff4-45c0-a8ea-35b7f241d8fa.png)
+
+### 2. Dans le dossier DEBIAN, créez un fichier control avec les champs suivants :
+- ![image](https://user-images.githubusercontent.com/113091304/193530355-64603c47-a63e-4b0e-9ccc-07b47792dd55.png)
+- ![image](https://user-images.githubusercontent.com/113091304/193531282-6b371990-f2ed-42b2-b23a-3ccc6fc7080b.png)
+
+### 3. Revenez dans le dossier parent de origine-commande (normalement, c’est votre $HOME) et tapez la commande suivante pour construire le paquet :
+### dpkg-deb --build origine-commande
+### Félicitations ! Vous avez créé votre propre paquet !
+- ![image](https://user-images.githubusercontent.com/113091304/193534326-5523338e-76c1-41a9-a4b1-0f97e63504e4.png)
+
+
 
 
 

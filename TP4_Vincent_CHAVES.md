@@ -155,7 +155,20 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/193544548-c8d196cc-5539-4c58-9d17-e5e3c87a0d8d.png)
 
 ### 5. Copiez le paquet origine-commande.deb créé précédemment dans le dossier packages du dépôt, puis, à la racine du dépôt, exécutez la commande reprepro -b . includedeb cosmic origine-commande.deb afin que votre paquet soit inscrit dans le dépôt.
-- ![image](https://user-images.githubusercontent.com/113091304/193547029-710177ab-ff88-4b75-b9cf-62e5237074ae.png)
+- ![image](https://user-images.githubusercontent.com/113091304/194231557-0d44881c-801c-479f-9c8e-fd19a39a0dcf.png)
+- ![image](https://user-images.githubusercontent.com/113091304/194232368-afe7b67e-76cc-4ff5-b5ab-b237c9292842.png)
+
+### 6. Il faut à présent indiquer à apt qu’il existe un nouveau dépôt dans lequel il peut trouver des logiciels. Pour cela, créez (avec sudo) dans le dossier /etc/apt/sources.list.d le fichier repo-cpe.list contenant :
+### deb file:/home/VOTRE_NOM/repo-cpe cosmic multiverse
+### (cette ligne reprend la configuration du dépôt, elle est à adapter au besoin)
+- ![image](https://user-images.githubusercontent.com/113091304/194233087-9faeca3d-adcb-45ca-830e-41521b832838.png)
+
+### 7. Lancez la commande sudo apt update. Féliciations ! Votre dépôt est désormais pris en compte ! ... Enfin, pas tout à fait... Si vous regardez la sortie d’apt update, il est précidé que le dépôt ne peut être pris en compte car il n’est pas signé. La signature permet de vérifier qu’un paquet provient bien du bon dépôt. On doit donc signer notre dépôt.
+- ![image](https://user-images.githubusercontent.com/113091304/194233709-bbe0e6be-5e48-46b0-a2b9-27c63b2c00f6.png)
+
+
+
+
 
 
 

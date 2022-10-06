@@ -174,6 +174,7 @@ Vincent CHAVES - 3ICS
 ### gpg --gen-key
 - ![image](https://user-images.githubusercontent.com/113091304/194234735-3ac121fe-1446-45c6-9bf2-5145cfe2d145.png)
 - ![image](https://user-images.githubusercontent.com/113091304/194235075-b8cbc825-1cb5-4a31-b724-7caf19db1961.png)
+- La paire de clés est bien créée.
 
 ### 2. Ajoutez à la configuration du dépôt (fichier distributions la ligne suivante :
 ### SignWith: yes

@@ -164,7 +164,41 @@ Vincent CHAVES - 3ICS
 - ![image](https://user-images.githubusercontent.com/113091304/194233087-9faeca3d-adcb-45ca-830e-41521b832838.png)
 
 ### 7. Lancez la commande sudo apt update. Féliciations ! Votre dépôt est désormais pris en compte ! ... Enfin, pas tout à fait... Si vous regardez la sortie d’apt update, il est précidé que le dépôt ne peut être pris en compte car il n’est pas signé. La signature permet de vérifier qu’un paquet provient bien du bon dépôt. On doit donc signer notre dépôt.
-- ![image](https://user-images.githubusercontent.com/113091304/194233709-bbe0e6be-5e48-46b0-a2b9-27c63b2c00f6.png)
+- ![image](https://user-images.githubusercontent.com/113091304/194233945-93308153-fd7c-4914-a1a0-d6321be6d702.png)
+- ![image](https://user-images.githubusercontent.com/113091304/194234373-576522bf-11d6-4f21-a23f-0a9ac1e93136.png)
+
+## Signature du dépôt avec GPG
+### GPG est la version GNU du protocole PGP (Pretty Good Privacy), qui permet d’échanger des données de manière sécurisée. Ce système repose sur la notion de clés de chiffrement asymétriques (une clé publique et une clé privée)
+
+### 1. Commencez par créer une nouvelle paire de clés avec la commande
+### gpg --gen-key
+- ![image](https://user-images.githubusercontent.com/113091304/194234735-3ac121fe-1446-45c6-9bf2-5145cfe2d145.png)
+- ![image](https://user-images.githubusercontent.com/113091304/194235075-b8cbc825-1cb5-4a31-b724-7caf19db1961.png)
+
+### 2. Ajoutez à la configuration du dépôt (fichier distributions la ligne suivante :
+### SignWith: yes
+- ![image](https://user-images.githubusercontent.com/113091304/194235415-5f9eb475-bbe3-4341-a0c4-b1c47e928240.png)
+
+### 3. Ajoutez la clé à votre dépôt :
+### reprepro --ask-passphrase -b . export
+- ![image](https://user-images.githubusercontent.com/113091304/194236115-d3269400-0c39-4dfd-82d5-496f23b96222.png)
+- ![image](https://user-images.githubusercontent.com/113091304/194236266-dddf77e2-6e57-49e6-a1f8-0852d4d6bcd3.png)
+
+### 4. Ajoutez votre clé publique à votre dépôt avec la commande
+### gpg --export -a "auteur" > public.key
+- ![image](https://user-images.githubusercontent.com/113091304/194236603-58429466-5a25-4989-bf3b-a24190c63e05.png)
+
+### 5. Enfin, ajoutez cette clé à la liste des clés fiables connues de apt :
+### sudo apt-key add public.key
+![image](https://user-images.githubusercontent.com/113091304/194236978-f6383a5e-7548-40bc-84a4-92b32bcf10fe.png)
+
+
+
+
+
+
+
+
 
 
 
